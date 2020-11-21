@@ -1,5 +1,7 @@
 $(function(){
-    new WOW().init();
+    new WOW({
+        mobile: false
+    }).init();
 
     $('.partners-slider').slick({
         arrows: false,
