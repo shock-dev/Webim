@@ -1,9 +1,14 @@
 $(function(){
+    new WOW({
+        mobile: false
+    }).init();
 
     $('.partners-slider').slick({
         arrows: false,
         slidesToShow: 4,
         slidesToScroll: 4,
+        autoplay: true,
+        autoplaySpeed: 3000,
         responsive: [
             {
                 breakpoint: 940,
