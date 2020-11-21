@@ -1,0 +1,33 @@
+.features {
+  text-align: center;
+
+  &__title {
+    font-size: 28px;
+    line-height: 1;
+    letter-spacing: 0.03em;
+    color: $gray-color;
+    margin-bottom: 30px;
+  }
+
+  &__items {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -20px;
+  }
+
+  &__item {
+    margin: 20px;
+    width: calc(100% / 12 * 3 - 40px);
+
+    img {
+      margin-bottom: 26px;
+    }
+  }
+
+  &__item-title {
+    font-family: Sunflower, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
