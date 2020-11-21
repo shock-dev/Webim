@@ -6,6 +6,9 @@ $(function(){
         slidesToScroll: 4
     })
 
-
+    $('.questions__item-head').click(function () {
+        $(this).parent().toggleClass('active')
+        $(this).next().slideToggle()
+    })
 
 });
