@@ -1,4 +1,5 @@
 $(function(){
+    new WOW().init();
 
     $('.partners-slider').slick({
         arrows: false,
