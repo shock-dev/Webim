@@ -10,8 +10,13 @@ html {
 
 body {
   margin: 0;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
   min-width: 320px;
   overflow-x: hidden;
+  font-size: 16px;
+  line-height: 26px;
+  color: $blue-color;
 }
 
 .lock {
@@ -46,7 +51,7 @@ img {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1130px;
   padding: 0 15px;
   margin: 0 auto;
 }
