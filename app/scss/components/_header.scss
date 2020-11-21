@@ -1,0 +1,42 @@
+.header {
+  padding-top: 45px;
+
+  &__container {
+    max-width: 1330px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.menu {
+
+  &__list {
+    display: flex;
+  }
+
+  &__item:not(:last-child) {
+    margin-right: 70px;
+  }
+
+  &__item.active {
+    color: $light-blue-color;
+  }
+
+  &__link {
+    font-family: Sunflower, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    transition: color .2s;
+
+    &:hover {
+      color: $light-blue-color;
+    }
+  }
+}
