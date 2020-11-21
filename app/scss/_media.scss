@@ -36,6 +36,10 @@
 }
 
 @media (max-width: 768px) {
+  .questions {
+    padding: 50px 0;
+  }
+
   .header__menu {
     display: none;
   }
@@ -46,6 +50,11 @@
 
   .partners-slider__item {
     padding: 50px 0;
+  }
+
+  .questions__item-head {
+    font-size: 16px;
+    line-height: 30px;
   }
 }
 
@@ -80,5 +89,12 @@
   .features__item {
     width: calc(100% - 40px);
   }
-}
 
+  .questions__item-head {
+    padding-left: 10px;
+  }
+
+  .questions__item-body {
+    padding-left: 10px;
+  }
+}

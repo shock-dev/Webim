@@ -22,8 +22,11 @@
   &__item-head {
     cursor: pointer;
     border-top: 1px solid rgba(#8B9FA6, .3);
-    padding: 20px 30px;
+    padding: 20px 75px 20px 30px;
     position: relative;
+    font-size: 20px;
+    line-height: 38px;
+    letter-spacing: 0.03em;
 
     &:after {
       content: '';
@@ -40,12 +43,6 @@
 
   &__item.active .questions__item-head:after {
     transform: rotate(180deg);
-  }
-
-  &__item-head {
-    font-size: 20px;
-    line-height: 38px;
-    letter-spacing: 0.03em;
   }
 
   &__item-body {
