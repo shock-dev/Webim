@@ -27,4 +27,16 @@ $(function(){
         $(this).next().slideToggle()
     })
 
+    $('.burger').click(function () {
+        $('body').addClass('lock')
+        $('.overlay').addClass('active')
+        $('.header__menu').addClass('active')
+    })
+
+    $('.overlay').click(function () {
+        $('body').removeClass('lock')
+        $('.overlay').removeClass('active')
+        $('.header__menu').removeClass('active')
+    })
+
 });
