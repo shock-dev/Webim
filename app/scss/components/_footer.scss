@@ -1,4 +1,31 @@
 .footer {
   background-color: $footer-color;
   padding: 40px 0;
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__social {
+    display: flex;
+  }
+
+  &__social-item {
+    svg {
+      width: 24px;
+      height: 24px;
+      fill: rgba(white, .5);
+      transition: fill .3s;
+
+      &:hover {
+        fill: rgba(white, 1);
+      }
+    }
+
+    &:not(:last-child) {
+      margin-right: 13px;
+    }
+  }
 }
