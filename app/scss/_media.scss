@@ -11,6 +11,12 @@
   }
 }
 
+@media (max-width: 800px) {
+  .features__item {
+    width: calc(100% / 12 * 6 - 40px);
+  }
+}
+
 @media (max-width: 768px) {
   .header__menu {
     display: none;
@@ -39,6 +45,12 @@
     font-size: 30px;
     line-height: 42px;
     margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 450px) {
+  .features__item {
+    width: calc(100% - 40px);
   }
 }
 
