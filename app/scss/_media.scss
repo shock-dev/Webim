@@ -1,3 +1,17 @@
+@media (max-width: 1130px) {
+  .survey .container {
+    max-width: 700px;
+  }
+
+  .survey__img {
+    margin: 0 auto;
+  }
+
+  .survey__inner {
+    padding: 30px;
+  }
+}
+
 @media (max-width: 900px) {
   .menu__item:not(:last-child) {
     margin-right: 50px;
@@ -24,6 +38,12 @@
 
   .header__logo img {
     width: 80%;
+  }
+}
+
+@media (max-width: 520px) {
+  .survey__inner {
+    padding: 25px 15px;
   }
 }
 
